@@ -1,1 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  max-width: 100vw;
+}
+.header{
+  height: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+.lis-main-cont{
+  background-color: bisque;
+  width: 500px;
+  min-height: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+#textInput{
+  width: 80%;
+  height: 40px;
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+}
+.Input{
+  width:100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#add-btn{
+  width: 60px;
+  height: 40px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(190, 190, 248);
+}
+#add-btn:hover{
+  background-color: rgb(143, 143, 244);
+  transition: 0.3s ease-in-out;
+}
+.list-cnt{
+  width: 95%;
+  height: 400px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: red;
+}
+li {
+  background-color: rgb(240, 199, 199);
+  margin-top: 10px;
+  font-size: large;
+  height: 30px;
+}

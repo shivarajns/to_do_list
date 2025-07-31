@@ -1,8 +1,13 @@
-
+import Header from "./Header";
+import List from "./listContainer";
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Header />
+      <List />
+    </>
+
   );
 }
 
